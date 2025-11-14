@@ -89,32 +89,6 @@ IValueConverter	Rätt/Fel-indikatorer
 RelayCommand	Kommandon
 
 
-💖 Struktur (MVVM)
-Labb3/
-│
-├── Models/
-│   ├── Question.cs
-│   ├── QuestionPack.cs
-│   └── ApiModels/
-│
-├── ViewModels/
-│   ├── MainViewModel.cs
-│   ├── ConfigurationViewModel.cs
-│   ├── PlayerViewModel.cs
-│   └── ResultViewModel.cs
-│
-├── Views/
-│   ├── MainWindow.xaml
-│   ├── ConfigurationView.xaml
-│   ├── PlayerView.xaml
-│   └── ResultView.xaml
-│
-├── Services/
-│   ├── JsonService.cs
-│   └── TriviaApiService.cs
-│
-└── Converters/
-    └── AnswerCorrectConverter.cs
 
 
 🎀 Installation
