@@ -34,59 +34,68 @@ Funktioner
 
 🩷 1. Skapa och hantera frågor
 
-Skapa nya frågepaket
+· Skapa nya frågepaket
 
-Lägg till frågor med 4 svarsalternativ
+· Lägg till frågor med 4 svarsalternativ
 
-Välj vilket alternativ som är rätt
+· Välj vilket alternativ som är rätt
 
 
 🩷 2. Importera frågor via API
 
-Applikationen använder Open Trivia DB för att hämta:
+· Applikationen använder Open Trivia DB för att hämta:
 
-Kategorier
+· Kategorier
 
-Svårighetsgrader
+· Svårighetsgrader
 
-Valfritt antal frågor
+· Valfritt antal frågor
 
-All kommunikation sker asynkront.
+· All kommunikation sker asynkront.
 
 
 🩷 3. Inbyggd Quiz-spelare
 
-Nedräkning per fråga
+· Nedräkning per fråga
 
-Slumpade svarsalternativ
+· Slumpade svarsalternativ
 
-Visar rätt/fel efter knapptryck
+· Visar rätt/fel efter knapptryck
 
-Hoppar vidare automatiskt
+· Hoppar vidare automatiskt
 
 
 🩷 4. Resultatskärm
 
 Efter quizet visas:
 
-Antal rätt
+· Antal rätt
 
-Antal fel
+· Antal fel
 
-Total score
+· Total score
 
-Möjlighet att återgå till redigeraren
+· Möjlighet att återgå till redigeraren
 
 
 🌸 Tekniker & Verktyg
+
 Teknik	Användning
-C# .NET 8	Logik & MVVM-struktur
-WPF	UI • XAML
-MVVM	Ren kod & bindningar
-JSON-lagring	Spara frågepaket
-Open Trivia API	Importera frågor
-IValueConverter	Rätt/Fel-indikatorer
-RelayCommand	Kommandon
+
+· C# .NET 8	Logik & MVVM-struktur
+
+· WPF	UI • XAML
+
+· MVVM	Ren kod & bindningar
+
+· JSON-lagring	Spara frågepaket
+
+· Open Trivia API	Importera frågor
+
+· IValueConverter	Rätt/Fel-indikatorer
+
+· RelayCommand	Kommandon
+
 
 
 
@@ -112,24 +121,24 @@ Ingen setup krävs — JSON-filer skapas automatiskt i AppData.
 
 💞 Hur man spelar quizet
 
-Skapa ett nytt frågepaket
+· Skapa ett nytt frågepaket
 
-Lägg till frågor
+· Lägg till frågor
 
-Tryck Play (Ctrl + P)
+· Tryck Play (Ctrl + P)
 
-Välj dina svar
+· Välj dina svar
 
-Se resultat efter sista frågan
+· Se resultat efter sista frågan
 
 
 🌷 Tangentbordskommandon
-Shortcut	Funktion
-Ctrl + P	Starta quiz
-Ctrl + E	Gå till edit-läge
-Ctrl + O	Pack options
-Insert	Lägg till fråga
-Delete	Ta bort fråga
+· Shortcut	Funktion
+· Ctrl + P	Starta quiz
+· Ctrl + E	Gå till edit-läge
+· Ctrl + O	Pack options
+· Insert	Lägg till fråga
+· Delete	Ta bort fråga
 
 
 👩‍💻 Developer: Vendela Magnusson
