@@ -1,6 +1,6 @@
 
 
-#🌸 Labb 3 – Quiz Application 🌸
+# 🌸 Labb 3 – Quiz Application 🌸
 
 En WPF-applikation för att skapa, redigera och spela quiz!
 
@@ -9,7 +9,7 @@ Kurs: .NET / Utveckling i C#
 Repo: https://github.com/Vendela123/Labb3
 
 
-##💗 ✨ Beskrivning
+## 💗 ✨ Beskrivning
 
 Detta projekt är en WPF-baserad quiz-applikation där användaren kan:
 
@@ -29,10 +29,12 @@ Detta projekt är en WPF-baserad quiz-applikation där användaren kan:
 
 Allt sparas automatiskt i JSON-format i AppData.
 
-##Funktioner
 
 
-###🩷 1. Skapa och hantera frågor
+## Funktioner
+
+
+### 🩷 1. Skapa och hantera frågor
 
 · Skapa nya frågepaket
 
@@ -41,7 +43,7 @@ Allt sparas automatiskt i JSON-format i AppData.
 · Välj vilket alternativ som är rätt
 
 
-###🩷 2. Importera frågor via API
+### 🩷 2. Importera frågor via API
 
 · Applikationen använder Open Trivia DB för att hämta:
 
@@ -54,7 +56,7 @@ Allt sparas automatiskt i JSON-format i AppData.
 · All kommunikation sker asynkront.
 
 
-###🩷 3. Inbyggd Quiz-spelare
+### 🩷 3. Inbyggd Quiz-spelare
 
 · Nedräkning per fråga
 
@@ -65,7 +67,7 @@ Allt sparas automatiskt i JSON-format i AppData.
 · Hoppar vidare automatiskt
 
 
-###🩷 4. Resultatskärm
+### 🩷 4. Resultatskärm
 
 Efter quizet visas:
 
@@ -78,9 +80,9 @@ Efter quizet visas:
 · Möjlighet att återgå till redigeraren
 
 
-##🌸 Tekniker & Verktyg
+## 🌸 Tekniker & Verktyg
 
-###Teknik	Användning
+### Teknik	Användning
 
 · C# .NET 8	Logik & MVVM-struktur
 
@@ -100,7 +102,7 @@ Efter quizet visas:
 
 
 
-##🎀 Installation
+## 🎀 Installation
 
 1️⃣ Klona repot
 
@@ -119,7 +121,7 @@ Tryck Start
 Ingen setup krävs — JSON-filer skapas automatiskt i AppData.
 
 
-##💞 Hur man spelar quizet
+## 💞 Hur man spelar quizet
 
 · Skapa ett nytt frågepaket
 
@@ -132,7 +134,7 @@ Ingen setup krävs — JSON-filer skapas automatiskt i AppData.
 · Se resultat efter sista frågan
 
 
-##🌷 Tangentbordskommandon
+## 🌷 Tangentbordskommandon
 · Shortcut	Funktion
 · Ctrl + P	Starta quiz
 · Ctrl + E	Gå till edit-läge
