@@ -1,0 +1,61 @@
+<UserControl x:Class="Labb3.Views.ConfigurationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border BorderBrush="Black" BorderThickness="0.5" Padding="10" CornerRadius="6" Grid.Column="0" Background="White">
+            <DockPanel>
+                <TextBlock Text="{Binding SelectedPack.Name}" 
+                       FontWeight="Bold" 
+                       FontSize="16"
+                       DockPanel.Dock="Top"
+                       Margin="0,0,0,8"/>
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,8">
+
+                    <Button Width="30" Height="25" Command="{Binding EditPackOptionsCommand}" Margin="2" ToolTip="Pack Options">
+                        <Image Source="/Labb3;component/Icons/option.png" Stretch="Uniform"/>
+                    </Button>
+
+                    <Button Width="30" Height="25" Command="{Binding AddQuestionCommand}" Margin="2" ToolTip="Add Question">
+                        <Image Source="/Labb3;component/Icons/plus.png" Stretch="Uniform"/>
+                    </Button>
+
+                    <Button Width="30" Height="25" Command="{Binding DeleteQuestionCommand}" Margin="2" ToolTip="Delete Question">
+                        <Image Source="/Labb3;component/Icons/minus.png" Stretch="Uniform"/>
+                    </Button>
+
+                </StackPanel>
+
+
+                <ListBox Background="#F7F7F7" 
+                     ItemsSource="{Binding SelectedPack.Questions}" 
+                     SelectedItem="{Binding SelectedQuestion}"
+                     DisplayMemberPath="Text"/>
+            </DockPanel>
+        </Border>
+
+        <StackPanel Grid.Column="1" Margin="15,0,0,0">
+            <TextBlock Text="Question:" FontWeight="Bold"/>
+            <TextBox Text="{Binding SelectedQuestion.Text, UpdateSourceTrigger=PropertyChanged}" 
+                 Height="80" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Correct Answer:" FontWeight="Bold"/>
+            <TextBox Text="{Binding SelectedQuestion.Answers[0], UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+            <TextBlock Text="First Incorrect Answer:" FontWeight="Bold"/>
+            <TextBox Text="{Binding SelectedQuestion.Answers[1], UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Second Incorrect Answer:" FontWeight="Bold"/>
+            <TextBox Text="{Binding SelectedQuestion.Answers[2], UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Third Incorrect Answer:" FontWeight="Bold"/>
+            <TextBox Text="{Binding SelectedQuestion.Answers[3], UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+        </StackPanel>
+    </Grid>
+
+</UserControl>

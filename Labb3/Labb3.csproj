@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Labb3</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\add_folder.png" />
+    <None Remove="Icons\correct.png" />
+    <None Remove="Icons\edit.png" />
+    <None Remove="Icons\exit.png" />
+    <None Remove="Icons\expand.png" />
+    <None Remove="Icons\folder.png" />
+    <None Remove="Icons\fullscreen.png" />
+    <None Remove="Icons\minus.png" />
+    <None Remove="Icons\option.png" />
+    <None Remove="Icons\options.png" />
+    <None Remove="Icons\play.png" />
+    <None Remove="Icons\plus.png" />
+    <None Remove="Icons\remove_folder.png" />
+    <None Remove="Icons\settings.png" />
+    <None Remove="Icons\wrong.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\correct.png" />
+    <Resource Include="Icons\option.png" />
+    <Resource Include="Icons\options.png" />
+    <Resource Include="Icons\upload.png" />
+    <Resource Include="Icons\add_folder.png" />
+    <Resource Include="Icons\edit.png" />
+    <Resource Include="Icons\exit.png" />
+    <Resource Include="Icons\expand.png" />
+    <Resource Include="Icons\folder.png" />
+    <Resource Include="Icons\fullscreen.png" />
+    <Resource Include="Icons\minus.png" />
+    <Resource Include="Icons\play.png" />
+    <Resource Include="Icons\plus.png" />
+    <Resource Include="Icons\remove_folder.png" />
+    <Resource Include="Icons\settings.png" />
+    <Resource Include="Icons\wrong.png" />
+  </ItemGroup>
+
+</Project>
